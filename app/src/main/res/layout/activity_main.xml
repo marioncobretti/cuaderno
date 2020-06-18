@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
+
+
+    <TextView
+        android:id="@+id/polish"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="100sp"
+        android:textSize="32sp"/>
+
+    <TextView
+        android:id="@+id/spanish"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20sp"
+        android:textSize="32sp"/>
+
+    <Button android:id="@+id/checkButton"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50sp"
+        android:text="@string/cheque"/>
+
+    <Button android:id="@+id/nextButton"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:text="@string/siguiente"/>
+
+    <TextView
+        android:id="@+id/counterText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="25sp"
+        android:textSize="15sp"/>
+
+</LinearLayout>
