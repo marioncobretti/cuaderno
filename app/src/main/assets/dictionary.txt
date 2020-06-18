@@ -95,3 +95,4 @@ dolina=valle
 bilet=billete
 kurtka=chaqueta
 zeszyt=cuaderno
+
